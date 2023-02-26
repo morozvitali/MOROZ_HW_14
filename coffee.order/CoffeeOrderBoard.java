@@ -1,3 +1,5 @@
+package coffee.order;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,7 +33,7 @@ public class CoffeeOrderBoard {
                 return;
             }
         }
-        System.out.println("Order #" + orderNumber + " not found.");
+        System.out.println("coffee.order.Order #" + orderNumber + " not found.");
     }
 
     public void draw() {
@@ -43,20 +45,3 @@ public class CoffeeOrderBoard {
     }
 }
 
-class Order {
-    private int orderNumber;
-    private String name;
-
-    public Order(int orderNumber, String name) {
-        this.orderNumber = orderNumber;
-        this.name = name;
-    }
-
-    public int getOrderNumber() {
-        return orderNumber;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
