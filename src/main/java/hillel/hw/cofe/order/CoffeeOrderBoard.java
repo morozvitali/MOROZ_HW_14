@@ -1,10 +1,10 @@
-package coffee.order;
+package src.main.java.hillel.hw.cofe.order;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CoffeeOrderBoard {
-    private List<Order> orders = new ArrayList<>();
+    private List <Order> orders = new ArrayList<>();
     private int lastOrderNumber = 0;
 
     public void add(String name) {

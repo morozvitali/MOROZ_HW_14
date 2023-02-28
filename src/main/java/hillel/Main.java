@@ -1,4 +1,6 @@
-import coffee.order.CoffeeOrderBoard;
+package src.main.java.hillel;
+
+import src.main.java.hillel.hw.cofe.order.*;
 
 public class Main {
     public static void main(String[] args) {

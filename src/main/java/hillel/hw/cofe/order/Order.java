@@ -1,4 +1,4 @@
-package coffee.order;
+package src.main.java.hillel.hw.cofe.order;
 
 class Order {
     private int orderNumber;
